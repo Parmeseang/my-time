@@ -80,7 +80,7 @@ starttimer = () => {
     if(tens > 9){
         appendtens.innerHTML=tens;
     }
-    if(tens >60){
+    if(tens >59){
         sec++;
         appendsec.innerHTML = "0"+sec;
         tens=0
